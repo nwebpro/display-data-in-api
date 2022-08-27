@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display JSON Data in HTML Using JavaScript</title>
     <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
 </head>
 <body>
     <!-- Header -->
@@ -57,10 +58,9 @@
         <section class="py-20" id="#posts">
             <div class="container mx-auto">
                 <h1 class="text-3xl font-bold text-center mb-10">Get All Posts</h1>
-                <div class="grid grid-cols-4 gap-4">
-                    <div id="post-container" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        
-                    </div>
+                <div id="post-container" class="grid grid-cols-4 gap-4">
+                    <!-- Get Post by JavaScript -->
+
                 </div>
             </div>
         </section>
@@ -73,7 +73,7 @@
 
 
     <!-- Flowbite Css -->
-    <script src="./node_modules/flowbite/dist/flowbite.js"></script>
     <script src="./dist/js/post.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.js"></script>
 </body>
 </html>
